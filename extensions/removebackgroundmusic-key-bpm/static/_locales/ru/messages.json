@@ -1,0 +1,323 @@
+{
+  "locale_code": {
+    "message": "ru"
+  },
+  "extName": {
+    "message": "BPM и тональность песни – тап-темп"
+  },
+  "extDescription": {
+    "message": "Узнайте BPM, тональность и код Camelot своих треков, плюс тап-темп. Бесплатно: файлы не покидают ваше устройство."
+  },
+  "actionTitle": {
+    "message": "Открыть определитель BPM и тональности"
+  },
+  "appName": {
+    "message": "BPM и тональность"
+  },
+  "badgeLocal": {
+    "message": "Бесплатно · работает на вашем устройстве"
+  },
+  "dropTitle": {
+    "message": "Перетащите треки сюда"
+  },
+  "dropSub": {
+    "message": "или нажмите, чтобы выбрать файлы: MP3, WAV, M4A, FLAC, OGG или видео"
+  },
+  "dropPrivacy": {
+    "message": "Треки анализируются на вашем устройстве и никуда не загружаются."
+  },
+  "trySample": {
+    "message": "Попробовать на примере"
+  },
+  "sampleName": {
+    "message": "Инди-поп луп (пример)"
+  },
+  "resultsTitle": {
+    "message": "Результаты"
+  },
+  "copyAll": {
+    "message": "Копировать всё"
+  },
+  "downloadCsv": {
+    "message": "Скачать CSV"
+  },
+  "clearAll": {
+    "message": "Очистить"
+  },
+  "statusQueued": {
+    "message": "В очереди…"
+  },
+  "statusReading": {
+    "message": "Чтение трека…"
+  },
+  "statusListening": {
+    "message": "Определяем тональность и темп… $PERCENT$%",
+    "placeholders": {
+      "percent": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorUnreadable": {
+    "message": "Не удалось прочитать файл: в нём нет звука или Chrome не может его декодировать. Попробуйте MP3, WAV или M4A."
+  },
+  "errorTooLong": {
+    "message": "Можно анализировать треки длиной до 10 минут."
+  },
+  "errorFailed": {
+    "message": "Анализ не завершился. Попробуйте ещё раз."
+  },
+  "errorSample": {
+    "message": "Не удалось загрузить пример."
+  },
+  "retry": {
+    "message": "Повторить"
+  },
+  "labelKey": {
+    "message": "Тональность"
+  },
+  "labelCamelot": {
+    "message": "Camelot"
+  },
+  "labelTempo": {
+    "message": "Темп"
+  },
+  "keyMajor": {
+    "message": "$TONIC$ мажор",
+    "placeholders": {
+      "tonic": {
+        "content": "$1"
+      }
+    }
+  },
+  "keyMinor": {
+    "message": "$TONIC$ минор",
+    "placeholders": {
+      "tonic": {
+        "content": "$1"
+      }
+    }
+  },
+  "noteNames": {
+    "message": "до ре ми фа соль ля си"
+  },
+  "sharpName": {
+    "message": "$NOTE$-диез",
+    "placeholders": {
+      "note": {
+        "content": "$1"
+      }
+    }
+  },
+  "flatName": {
+    "message": "$NOTE$-бемоль",
+    "placeholders": {
+      "note": {
+        "content": "$1"
+      }
+    }
+  },
+  "minorLowercase": {
+    "message": "no"
+  },
+  "relativeMajor": {
+    "message": "Параллельный мажор: $KEY$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "relativeMinor": {
+    "message": "Параллельный минор: $KEY$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "openKey": {
+    "message": "Open Key: $CODE$",
+    "placeholders": {
+      "code": {
+        "content": "$1"
+      }
+    }
+  },
+  "bpmUnit": {
+    "message": "BPM"
+  },
+  "halfDouble": {
+    "message": "Половинный / двойной темп: $VALUES$",
+    "placeholders": {
+      "values": {
+        "content": "$1"
+      }
+    }
+  },
+  "noKey": {
+    "message": "Чёткая тональность не найдена"
+  },
+  "noBeat": {
+    "message": "Ровный бит не найден"
+  },
+  "weakBeat": {
+    "message": "Бит нечёткий — проверьте на слух"
+  },
+  "mixesWith": {
+    "message": "Хорошо сводится с"
+  },
+  "copy": {
+    "message": "Копировать"
+  },
+  "copied": {
+    "message": "Скопировано"
+  },
+  "copyFailed": {
+    "message": "Не удалось скопировать в буфер обмена."
+  },
+  "copyLine": {
+    "message": "$NAME$: $KEY$ · $TEMPO$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "key": {
+        "content": "$2"
+      },
+      "tempo": {
+        "content": "$3"
+      }
+    }
+  },
+  "copyKeyText": {
+    "message": "$KEY$ ($CAMELOT$, Open Key $OPEN$)",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      },
+      "camelot": {
+        "content": "$2"
+      },
+      "open": {
+        "content": "$3"
+      }
+    }
+  },
+  "copyNoKey": {
+    "message": "нет чёткой тональности"
+  },
+  "copyTempo": {
+    "message": "$BPM$ BPM",
+    "placeholders": {
+      "bpm": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyNoBeat": {
+    "message": "нет ровного бита"
+  },
+  "tapTitle": {
+    "message": "Тап-темп"
+  },
+  "tapHint": {
+    "message": "Нажимайте кнопку в такт музыке или клавишу T."
+  },
+  "tapButton": {
+    "message": "Тап"
+  },
+  "tapNeedMore": {
+    "message": "Продолжайте нажимать…"
+  },
+  "tapCount": {
+    "message": "Нажатий: $COUNT$ · после паузы дольше 2 секунд счёт начнётся заново",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "tapReset": {
+    "message": "Сбросить"
+  },
+  "moreTitle": {
+    "message": "Нужно больше, чем тональность и темп?"
+  },
+  "moreRemoveTitle": {
+    "message": "Удалить фоновую музыку"
+  },
+  "moreRemoveText": {
+    "message": "Оставьте только голос из песни или видео."
+  },
+  "moreStemsTitle": {
+    "message": "Разделение на дорожки"
+  },
+  "moreStemsText": {
+    "message": "Разделите трек на вокал, ударные, бас и другие партии."
+  },
+  "moreMidiTitle": {
+    "message": "Песня в MIDI"
+  },
+  "moreMidiText": {
+    "message": "Превратите мелодию и ноты песни в MIDI-файл."
+  },
+  "moreNote": {
+    "message": "Эти инструменты находятся на нашем сайте (на английском). Некоторые из них платные — за кредиты."
+  },
+  "footerBy": {
+    "message": "Создано Remove Background Music"
+  },
+  "footerWeb": {
+    "message": "Веб-версия"
+  },
+  "footerPrivacy": {
+    "message": "Конфиденциальность"
+  },
+  "footerSupport": {
+    "message": "Поддержка"
+  },
+  "removeNamed": {
+    "message": "Удалить $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyNamed": {
+    "message": "Копировать результат: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyTempoWeak": {
+    "message": "$BPM$ BPM (бит нечёткий)",
+    "placeholders": {
+      "bpm": {
+        "content": "$1"
+      }
+    }
+  },
+  "skippedFiles": {
+    "message": "Пропущено (не аудио и не видео): $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyAdded": {
+    "message": "Уже в списке: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "csvSeparator": {
+    "message": ";"
+  }
+}

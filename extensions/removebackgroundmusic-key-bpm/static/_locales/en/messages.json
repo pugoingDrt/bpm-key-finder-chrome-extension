@@ -1,0 +1,329 @@
+{
+  "locale_code": {
+    "message": "en",
+    "description": "Code of this locale file; read by the page to know which language Chrome chose."
+  },
+  "extName": {
+    "message": "BPM & Key Finder – Tap Tempo",
+    "description": "Store and Chrome name of the extension (max 75 characters)."
+  },
+  "extDescription": {
+    "message": "Find the BPM, key and Camelot code of songs on your computer, plus tap tempo. Free, and your files never leave your device.",
+    "description": "Store summary and Chrome description (max 132 characters)."
+  },
+  "actionTitle": {
+    "message": "Open BPM & Key Finder"
+  },
+  "appName": {
+    "message": "BPM & Key Finder"
+  },
+  "badgeLocal": {
+    "message": "Free · runs on your device"
+  },
+  "dropTitle": {
+    "message": "Drop songs here"
+  },
+  "dropSub": {
+    "message": "or click to choose files — MP3, WAV, M4A, FLAC, OGG or video"
+  },
+  "dropPrivacy": {
+    "message": "Songs are analyzed on your device and never uploaded."
+  },
+  "trySample": {
+    "message": "Try a sample song"
+  },
+  "sampleName": {
+    "message": "Indie pop loop (sample)"
+  },
+  "resultsTitle": {
+    "message": "Results"
+  },
+  "copyAll": {
+    "message": "Copy all"
+  },
+  "downloadCsv": {
+    "message": "Download CSV"
+  },
+  "clearAll": {
+    "message": "Clear"
+  },
+  "statusQueued": {
+    "message": "Waiting…"
+  },
+  "statusReading": {
+    "message": "Reading the song…"
+  },
+  "statusListening": {
+    "message": "Listening for the key and tempo… $PERCENT$%",
+    "placeholders": {
+      "percent": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorUnreadable": {
+    "message": "This file can't be read: it has no sound, or Chrome can't decode it. Try an MP3, WAV or M4A file."
+  },
+  "errorTooLong": {
+    "message": "Songs up to 10 minutes can be analyzed."
+  },
+  "errorFailed": {
+    "message": "The analysis didn't finish. Please try again."
+  },
+  "errorSample": {
+    "message": "The sample song couldn't be loaded."
+  },
+  "retry": {
+    "message": "Try again"
+  },
+  "labelKey": {
+    "message": "Key"
+  },
+  "labelCamelot": {
+    "message": "Camelot"
+  },
+  "labelTempo": {
+    "message": "Tempo"
+  },
+  "keyMajor": {
+    "message": "$TONIC$ major",
+    "placeholders": {
+      "tonic": {
+        "content": "$1"
+      }
+    }
+  },
+  "keyMinor": {
+    "message": "$TONIC$ minor",
+    "placeholders": {
+      "tonic": {
+        "content": "$1"
+      }
+    }
+  },
+  "noteNames": {
+    "message": "C D E F G A B",
+    "description": "Names of C D E F G A B, space separated."
+  },
+  "sharpName": {
+    "message": "$NOTE$♯",
+    "placeholders": {
+      "note": {
+        "content": "$1"
+      }
+    }
+  },
+  "flatName": {
+    "message": "$NOTE$♭",
+    "placeholders": {
+      "note": {
+        "content": "$1"
+      }
+    }
+  },
+  "minorLowercase": {
+    "message": "no",
+    "description": "\"yes\" to write the tonic of minor keys in lower case (German)."
+  },
+  "relativeMajor": {
+    "message": "Relative major: $KEY$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "relativeMinor": {
+    "message": "Relative minor: $KEY$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "openKey": {
+    "message": "Open Key: $CODE$",
+    "placeholders": {
+      "code": {
+        "content": "$1"
+      }
+    }
+  },
+  "bpmUnit": {
+    "message": "BPM"
+  },
+  "halfDouble": {
+    "message": "Half / double: $VALUES$",
+    "placeholders": {
+      "values": {
+        "content": "$1"
+      }
+    }
+  },
+  "noKey": {
+    "message": "No clear key found"
+  },
+  "noBeat": {
+    "message": "No steady beat found"
+  },
+  "weakBeat": {
+    "message": "Beat not clear — check it by ear"
+  },
+  "mixesWith": {
+    "message": "Mixes well with"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "copyFailed": {
+    "message": "Couldn't copy to the clipboard."
+  },
+  "copyLine": {
+    "message": "$NAME$: $KEY$ · $TEMPO$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "key": {
+        "content": "$2"
+      },
+      "tempo": {
+        "content": "$3"
+      }
+    }
+  },
+  "copyKeyText": {
+    "message": "$KEY$ ($CAMELOT$, Open Key $OPEN$)",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      },
+      "camelot": {
+        "content": "$2"
+      },
+      "open": {
+        "content": "$3"
+      }
+    }
+  },
+  "copyNoKey": {
+    "message": "no clear key"
+  },
+  "copyTempo": {
+    "message": "$BPM$ BPM",
+    "placeholders": {
+      "bpm": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyNoBeat": {
+    "message": "no steady beat"
+  },
+  "tapTitle": {
+    "message": "Tap tempo"
+  },
+  "tapHint": {
+    "message": "Tap the button along with the beat, or press T."
+  },
+  "tapButton": {
+    "message": "Tap"
+  },
+  "tapNeedMore": {
+    "message": "Keep tapping…"
+  },
+  "tapCount": {
+    "message": "$COUNT$ taps · pause 2+ seconds to start over",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "tapReset": {
+    "message": "Reset"
+  },
+  "moreTitle": {
+    "message": "Need more than key and tempo?"
+  },
+  "moreRemoveTitle": {
+    "message": "Remove background music"
+  },
+  "moreRemoveText": {
+    "message": "Keep only the voice from a song or video."
+  },
+  "moreStemsTitle": {
+    "message": "Stem splitter"
+  },
+  "moreStemsText": {
+    "message": "Split a song into vocals, drums, bass and other parts."
+  },
+  "moreMidiTitle": {
+    "message": "Song to MIDI"
+  },
+  "moreMidiText": {
+    "message": "Turn a song's melody and notes into a MIDI file."
+  },
+  "moreNote": {
+    "message": "These tools are on our website (in English). Some of them use paid credits."
+  },
+  "footerBy": {
+    "message": "Made by Remove Background Music"
+  },
+  "footerWeb": {
+    "message": "Web version"
+  },
+  "footerPrivacy": {
+    "message": "Privacy"
+  },
+  "footerSupport": {
+    "message": "Support"
+  },
+  "removeNamed": {
+    "message": "Remove $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyNamed": {
+    "message": "Copy the result for $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyTempoWeak": {
+    "message": "$BPM$ BPM (beat not clear)",
+    "placeholders": {
+      "bpm": {
+        "content": "$1"
+      }
+    }
+  },
+  "skippedFiles": {
+    "message": "Skipped (not audio or video): $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyAdded": {
+    "message": "Already in the list: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "csvSeparator": {
+    "message": ",",
+    "description": "Column separator of CSV exports: \";\" where Excel expects it (decimal comma locales), else \",\"."
+  }
+}

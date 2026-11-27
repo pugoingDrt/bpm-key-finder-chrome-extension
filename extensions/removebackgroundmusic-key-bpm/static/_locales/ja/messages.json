@@ -1,0 +1,323 @@
+{
+  "locale_code": {
+    "message": "ja"
+  },
+  "extName": {
+    "message": "BPM・キー判定 – タップテンポ付き"
+  },
+  "extDescription": {
+    "message": "パソコン内の曲のBPM・キー・Camelotコードを判定。タップテンポ付き。無料で、ファイルはアップロードされず端末内で処理します。"
+  },
+  "actionTitle": {
+    "message": "BPM・キー判定を開く"
+  },
+  "appName": {
+    "message": "BPM・キー判定"
+  },
+  "badgeLocal": {
+    "message": "無料 · 端末内で処理"
+  },
+  "dropTitle": {
+    "message": "ここに曲をドロップ"
+  },
+  "dropSub": {
+    "message": "またはクリックしてファイルを選択（MP3、WAV、M4A、FLAC、OGG、動画）"
+  },
+  "dropPrivacy": {
+    "message": "曲はお使いの端末内で解析され、アップロードされません。"
+  },
+  "trySample": {
+    "message": "サンプル曲で試す"
+  },
+  "sampleName": {
+    "message": "インディーポップのループ（サンプル）"
+  },
+  "resultsTitle": {
+    "message": "結果"
+  },
+  "copyAll": {
+    "message": "すべてコピー"
+  },
+  "downloadCsv": {
+    "message": "CSVをダウンロード"
+  },
+  "clearAll": {
+    "message": "クリア"
+  },
+  "statusQueued": {
+    "message": "待機中…"
+  },
+  "statusReading": {
+    "message": "曲を読み込み中…"
+  },
+  "statusListening": {
+    "message": "キーとテンポを解析中… $PERCENT$%",
+    "placeholders": {
+      "percent": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorUnreadable": {
+    "message": "このファイルは読み込めません。音声がないか、Chromeでデコードできません。MP3、WAV、M4Aでお試しください。"
+  },
+  "errorTooLong": {
+    "message": "解析できるのは10分までの曲です。"
+  },
+  "errorFailed": {
+    "message": "解析を完了できませんでした。もう一度お試しください。"
+  },
+  "errorSample": {
+    "message": "サンプル曲を読み込めませんでした。"
+  },
+  "retry": {
+    "message": "再試行"
+  },
+  "labelKey": {
+    "message": "キー"
+  },
+  "labelCamelot": {
+    "message": "Camelot"
+  },
+  "labelTempo": {
+    "message": "テンポ"
+  },
+  "keyMajor": {
+    "message": "$TONIC$メジャー",
+    "placeholders": {
+      "tonic": {
+        "content": "$1"
+      }
+    }
+  },
+  "keyMinor": {
+    "message": "$TONIC$マイナー",
+    "placeholders": {
+      "tonic": {
+        "content": "$1"
+      }
+    }
+  },
+  "noteNames": {
+    "message": "C D E F G A B"
+  },
+  "sharpName": {
+    "message": "$NOTE$♯",
+    "placeholders": {
+      "note": {
+        "content": "$1"
+      }
+    }
+  },
+  "flatName": {
+    "message": "$NOTE$♭",
+    "placeholders": {
+      "note": {
+        "content": "$1"
+      }
+    }
+  },
+  "minorLowercase": {
+    "message": "no"
+  },
+  "relativeMajor": {
+    "message": "平行調（メジャー）：$KEY$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "relativeMinor": {
+    "message": "平行調（マイナー）：$KEY$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "openKey": {
+    "message": "Open Key：$CODE$",
+    "placeholders": {
+      "code": {
+        "content": "$1"
+      }
+    }
+  },
+  "bpmUnit": {
+    "message": "BPM"
+  },
+  "halfDouble": {
+    "message": "半分 / 倍：$VALUES$",
+    "placeholders": {
+      "values": {
+        "content": "$1"
+      }
+    }
+  },
+  "noKey": {
+    "message": "はっきりしたキーが見つかりません"
+  },
+  "noBeat": {
+    "message": "安定したビートが見つかりません"
+  },
+  "weakBeat": {
+    "message": "ビートが不明瞭です。耳でご確認ください"
+  },
+  "mixesWith": {
+    "message": "相性の良いキー"
+  },
+  "copy": {
+    "message": "コピー"
+  },
+  "copied": {
+    "message": "コピーしました"
+  },
+  "copyFailed": {
+    "message": "クリップボードにコピーできませんでした。"
+  },
+  "copyLine": {
+    "message": "$NAME$: $KEY$ · $TEMPO$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "key": {
+        "content": "$2"
+      },
+      "tempo": {
+        "content": "$3"
+      }
+    }
+  },
+  "copyKeyText": {
+    "message": "$KEY$ ($CAMELOT$, Open Key $OPEN$)",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      },
+      "camelot": {
+        "content": "$2"
+      },
+      "open": {
+        "content": "$3"
+      }
+    }
+  },
+  "copyNoKey": {
+    "message": "キー不明"
+  },
+  "copyTempo": {
+    "message": "$BPM$ BPM",
+    "placeholders": {
+      "bpm": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyNoBeat": {
+    "message": "ビート不明"
+  },
+  "tapTitle": {
+    "message": "タップテンポ"
+  },
+  "tapHint": {
+    "message": "ビートに合わせてボタンを押すか、Tキーを押してください。"
+  },
+  "tapButton": {
+    "message": "タップ"
+  },
+  "tapNeedMore": {
+    "message": "タップを続けてください…"
+  },
+  "tapCount": {
+    "message": "$COUNT$回 · 2秒以上止まると最初から",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "tapReset": {
+    "message": "リセット"
+  },
+  "moreTitle": {
+    "message": "キーとテンポ以外も必要ですか？"
+  },
+  "moreRemoveTitle": {
+    "message": "BGMを消す"
+  },
+  "moreRemoveText": {
+    "message": "曲や動画から声だけを残します。"
+  },
+  "moreStemsTitle": {
+    "message": "ステム分離"
+  },
+  "moreStemsText": {
+    "message": "曲をボーカル、ドラム、ベースなどのパートに分けます。"
+  },
+  "moreMidiTitle": {
+    "message": "曲をMIDIに変換"
+  },
+  "moreMidiText": {
+    "message": "曲のメロディや音符をMIDIファイルにします。"
+  },
+  "moreNote": {
+    "message": "これらのツールは当サイト（英語）で使えます。一部は有料クレジットを使います。"
+  },
+  "footerBy": {
+    "message": "Remove Background Music 提供"
+  },
+  "footerWeb": {
+    "message": "ウェブ版"
+  },
+  "footerPrivacy": {
+    "message": "プライバシー"
+  },
+  "footerSupport": {
+    "message": "サポート"
+  },
+  "removeNamed": {
+    "message": "$NAME$ を削除",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyNamed": {
+    "message": "$NAME$ の結果をコピー",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyTempoWeak": {
+    "message": "$BPM$ BPM（ビート不明瞭）",
+    "placeholders": {
+      "bpm": {
+        "content": "$1"
+      }
+    }
+  },
+  "skippedFiles": {
+    "message": "音声・動画以外のためスキップ：$COUNT$件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyAdded": {
+    "message": "すでにリストにあります：$NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "csvSeparator": {
+    "message": ","
+  }
+}

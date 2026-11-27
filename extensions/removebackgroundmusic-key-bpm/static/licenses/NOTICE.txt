@@ -1,0 +1,15 @@
+BPM & Key Finder: third-party code and content
+
+mediabunny 1.64.0, by Vanilagy
+  License: Mozilla Public License 2.0 (full text: licenses/mediabunny.txt).
+  Source code: https://github.com/Vanilagy/mediabunny
+  (npm package mediabunny@1.64.0, https://mediabunny.dev/).
+  This extension includes its media reading and audio decoding parts,
+  unmodified and minified, in chunks/mediabunny-decode-*.js.
+
+samples/indie-pop-loop.mp3
+  A 30-second instrumental made for removebackgroundmusic.app with an AI
+  music generator. It is included only as the "Try a sample song" demo.
+
+Everything else in this extension is made by Remove Background Music
+(https://removebackgroundmusic.app).

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BPM &amp; Key Finder</title>
+  <link rel="icon" href="icons/icon-32.png" />
+  <link rel="stylesheet" href="app.css" />
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <img src="icons/icon-48.png" width="32" height="32" alt="" />
+      <span data-i18n="appName">BPM &amp; Key Finder</span>
+    </div>
+    <span class="badge" data-i18n="badgeLocal">Free · runs on your device</span>
+  </header>
+
+  <main class="layout">
+    <div class="primary">
+      <section class="card drop-card">
+        <input id="file" type="file" multiple hidden
+          accept="audio/*,video/*,.mp3,.wav,.m4a,.aac,.flac,.ogg,.oga,.opus,.aif,.aiff,.mp4,.m4v,.mov,.webm,.mkv" />
+        <div id="drop" class="drop">
+          <svg class="drop-icon" viewBox="0 0 48 48" aria-hidden="true">
+            <rect x="6" y="20" width="5" height="10" rx="2.5" />
+            <rect x="14" y="15" width="5" height="20" rx="2.5" />
+            <rect x="22" y="9" width="5" height="32" rx="2.5" class="accent" />
+            <rect x="30" y="16" width="5" height="18" rx="2.5" />
+            <rect x="38" y="21" width="5" height="8" rx="2.5" />
+          </svg>
+          <h1 class="drop-title" data-i18n="dropTitle">Drop songs here</h1>
+          <button id="browse" class="drop-sub" type="button" data-i18n="dropSub">or click to choose files — MP3, WAV, M4A, FLAC, OGG or video</button>
+          <p class="drop-privacy">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5 3 3.5v4c0 3.2 2.1 5.9 5 7 2.9-1.1 5-3.8 5-7v-4l-5-2Z" /></svg>
+            <span data-i18n="dropPrivacy">Songs are analyzed on your device and never uploaded.</span>
+          </p>
+        </div>
+        <button id="sample" class="link-button" type="button" data-i18n="trySample">Try a sample song</button>
+      </section>
+
+      <section id="results" class="card results" hidden>
+        <div class="results-head">
+          <h2><span data-i18n="resultsTitle">Results</span> <span id="count" class="count"></span></h2>
+          <div class="actions">
+            <button id="copy-all" class="ghost" type="button" data-i18n="copyAll">Copy all</button>
+            <button id="csv" class="ghost" type="button" data-i18n="downloadCsv">Download CSV</button>
+            <button id="clear" class="ghost" type="button" data-i18n="clearAll">Clear</button>
+          </div>
+        </div>
+        <ul id="list" class="list"></ul>
+      </section>
+    </div>
+
+    <aside class="secondary">
+      <section class="card tap">
+        <h2 data-i18n="tapTitle">Tap tempo</h2>
+        <p class="hint" data-i18n="tapHint">Tap the button, or press T or Space, along with the beat.</p>
+        <button id="tap" class="tap-button" type="button" data-i18n-aria-label="tapButton" aria-describedby="tap-info">
+          <span id="tap-bpm" class="tap-bpm">—</span>
+          <span class="tap-unit" data-i18n="bpmUnit">BPM</span>
+          <span class="tap-label" data-i18n="tapButton">Tap</span>
+        </button>
+        <div class="tap-foot">
+          <p id="tap-info" class="hint"></p>
+          <button id="tap-reset" class="link-button" type="button" data-i18n="tapReset">Reset</button>
+        </div>
+      </section>
+
+      <section class="card more">
+        <h2 data-i18n="moreTitle">Need more than key and tempo?</h2>
+        <ul class="more-list">
+          <li>
+            <a href="https://removebackgroundmusic.app/?utm_source=chrome_extension&amp;utm_medium=referral&amp;utm_campaign=key_bpm_finder&amp;utm_content=remove_music" target="_blank" rel="noopener">
+              <strong data-i18n="moreRemoveTitle">Remove background music</strong>
+              <span data-i18n="moreRemoveText">Keep only the voice from a song or video.</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://removebackgroundmusic.app/stem-splitter?utm_source=chrome_extension&amp;utm_medium=referral&amp;utm_campaign=key_bpm_finder&amp;utm_content=stem_splitter" target="_blank" rel="noopener">
+              <strong data-i18n="moreStemsTitle">Stem splitter</strong>
+              <span data-i18n="moreStemsText">Split a song into vocals, drums, bass and other parts.</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://removebackgroundmusic.app/song-to-midi?utm_source=chrome_extension&amp;utm_medium=referral&amp;utm_campaign=key_bpm_finder&amp;utm_content=song_to_midi" target="_blank" rel="noopener">
+              <strong data-i18n="moreMidiTitle">Song to MIDI</strong>
+              <span data-i18n="moreMidiText">Turn a song's melody and notes into a MIDI file.</span>
+            </a>
+          </li>
+        </ul>
+        <p class="hint" data-i18n="moreNote">These tools are on our website.</p>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="foot">
+    <span data-i18n="footerBy">Made by Remove Background Music</span>
+    <nav>
+      <a href="https://removebackgroundmusic.app/key-bpm-finder?utm_source=chrome_extension&amp;utm_medium=referral&amp;utm_campaign=key_bpm_finder&amp;utm_content=footer" target="_blank" rel="noopener" data-i18n="footerWeb">Web version</a>
+      <a href="https://removebackgroundmusic.app/privacy-policy" target="_blank" rel="noopener" data-i18n="footerPrivacy">Privacy</a>
+      <a href="https://removebackgroundmusic.app/contact" target="_blank" rel="noopener" data-i18n="footerSupport">Support</a>
+    </nav>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="live" class="sr-only" aria-live="polite"></div>
+
+  <template id="row">
+    <li class="item">
+      <div class="item-head">
+        <div class="item-title">
+          <span class="name"></span>
+          <span class="meta"></span>
+        </div>
+        <button class="remove icon-button" type="button" aria-label="Remove">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg>
+        </button>
+      </div>
+      <div class="status">
+        <span class="status-text"></span>
+        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"><div class="bar-fill"></div></div>
+      </div>
+      <div class="error" hidden>
+        <span class="error-text"></span>
+        <button class="retry link-button" type="button" data-i18n="retry">Try again</button>
+      </div>
+      <div class="result" hidden>
+        <div class="stat">
+          <span class="stat-label" data-i18n="labelKey">Key</span>
+          <span class="stat-value key-value"></span>
+          <span class="stat-sub key-sub"></span>
+        </div>
+        <div class="stat">
+          <span class="stat-label" data-i18n="labelCamelot">Camelot</span>
+          <span class="stat-value camelot-value"></span>
+          <span class="stat-sub camelot-sub"></span>
+        </div>
+        <div class="stat">
+          <span class="stat-label" data-i18n="labelTempo">Tempo</span>
+          <span class="stat-value tempo-value"></span>
+          <span class="stat-sub tempo-sub"></span>
+        </div>
+      </div>
+      <div class="item-foot" hidden>
+        <span class="mixes"></span>
+        <button class="copy ghost" type="button" data-i18n="copy">Copy</button>
+      </div>
+    </li>
+  </template>
+</body>
+</html>

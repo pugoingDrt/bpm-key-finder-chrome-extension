@@ -1,0 +1,323 @@
+{
+  "locale_code": {
+    "message": "pt_BR"
+  },
+  "extName": {
+    "message": "Detector de BPM e tom – Tap tempo"
+  },
+  "extDescription": {
+    "message": "Descubra o BPM, o tom e o código Camelot das suas músicas, com tap tempo. Grátis: seus arquivos nunca saem do seu computador."
+  },
+  "actionTitle": {
+    "message": "Abrir o detector de BPM e tom"
+  },
+  "appName": {
+    "message": "Detector de BPM e tom"
+  },
+  "badgeLocal": {
+    "message": "Grátis · funciona no seu computador"
+  },
+  "dropTitle": {
+    "message": "Solte suas músicas aqui"
+  },
+  "dropSub": {
+    "message": "ou clique para escolher arquivos: MP3, WAV, M4A, FLAC, OGG ou vídeo"
+  },
+  "dropPrivacy": {
+    "message": "As músicas são analisadas no seu computador e nunca são enviadas."
+  },
+  "trySample": {
+    "message": "Testar com uma música de exemplo"
+  },
+  "sampleName": {
+    "message": "Loop indie pop (exemplo)"
+  },
+  "resultsTitle": {
+    "message": "Resultados"
+  },
+  "copyAll": {
+    "message": "Copiar tudo"
+  },
+  "downloadCsv": {
+    "message": "Baixar CSV"
+  },
+  "clearAll": {
+    "message": "Limpar"
+  },
+  "statusQueued": {
+    "message": "Aguardando…"
+  },
+  "statusReading": {
+    "message": "Lendo a música…"
+  },
+  "statusListening": {
+    "message": "Ouvindo o tom e o tempo… $PERCENT$%",
+    "placeholders": {
+      "percent": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorUnreadable": {
+    "message": "Não foi possível ler este arquivo: ele não tem som ou o Chrome não consegue decodificá-lo. Tente um MP3, WAV ou M4A."
+  },
+  "errorTooLong": {
+    "message": "É possível analisar músicas de até 10 minutos."
+  },
+  "errorFailed": {
+    "message": "A análise não terminou. Tente novamente."
+  },
+  "errorSample": {
+    "message": "Não foi possível carregar a música de exemplo."
+  },
+  "retry": {
+    "message": "Tentar novamente"
+  },
+  "labelKey": {
+    "message": "Tom"
+  },
+  "labelCamelot": {
+    "message": "Camelot"
+  },
+  "labelTempo": {
+    "message": "Tempo"
+  },
+  "keyMajor": {
+    "message": "$TONIC$ maior",
+    "placeholders": {
+      "tonic": {
+        "content": "$1"
+      }
+    }
+  },
+  "keyMinor": {
+    "message": "$TONIC$ menor",
+    "placeholders": {
+      "tonic": {
+        "content": "$1"
+      }
+    }
+  },
+  "noteNames": {
+    "message": "Dó Ré Mi Fá Sol Lá Si"
+  },
+  "sharpName": {
+    "message": "$NOTE$ sustenido",
+    "placeholders": {
+      "note": {
+        "content": "$1"
+      }
+    }
+  },
+  "flatName": {
+    "message": "$NOTE$ bemol",
+    "placeholders": {
+      "note": {
+        "content": "$1"
+      }
+    }
+  },
+  "minorLowercase": {
+    "message": "no"
+  },
+  "relativeMajor": {
+    "message": "Relativo maior: $KEY$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "relativeMinor": {
+    "message": "Relativo menor: $KEY$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "openKey": {
+    "message": "Open Key: $CODE$",
+    "placeholders": {
+      "code": {
+        "content": "$1"
+      }
+    }
+  },
+  "bpmUnit": {
+    "message": "BPM"
+  },
+  "halfDouble": {
+    "message": "Metade / dobro: $VALUES$",
+    "placeholders": {
+      "values": {
+        "content": "$1"
+      }
+    }
+  },
+  "noKey": {
+    "message": "Nenhum tom claro encontrado"
+  },
+  "noBeat": {
+    "message": "Nenhum pulso estável encontrado"
+  },
+  "weakBeat": {
+    "message": "Pulso pouco claro — confira de ouvido"
+  },
+  "mixesWith": {
+    "message": "Combina bem com"
+  },
+  "copy": {
+    "message": "Copiar"
+  },
+  "copied": {
+    "message": "Copiado"
+  },
+  "copyFailed": {
+    "message": "Não foi possível copiar para a área de transferência."
+  },
+  "copyLine": {
+    "message": "$NAME$: $KEY$ · $TEMPO$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "key": {
+        "content": "$2"
+      },
+      "tempo": {
+        "content": "$3"
+      }
+    }
+  },
+  "copyKeyText": {
+    "message": "$KEY$ ($CAMELOT$, Open Key $OPEN$)",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      },
+      "camelot": {
+        "content": "$2"
+      },
+      "open": {
+        "content": "$3"
+      }
+    }
+  },
+  "copyNoKey": {
+    "message": "sem tom claro"
+  },
+  "copyTempo": {
+    "message": "$BPM$ BPM",
+    "placeholders": {
+      "bpm": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyNoBeat": {
+    "message": "sem pulso estável"
+  },
+  "tapTitle": {
+    "message": "Tap tempo"
+  },
+  "tapHint": {
+    "message": "Toque no botão no ritmo da música, ou pressione T."
+  },
+  "tapButton": {
+    "message": "Toque"
+  },
+  "tapNeedMore": {
+    "message": "Continue marcando o ritmo…"
+  },
+  "tapCount": {
+    "message": "$COUNT$ toques · uma pausa de mais de 2 segundos reinicia a contagem",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "tapReset": {
+    "message": "Reiniciar"
+  },
+  "moreTitle": {
+    "message": "Precisa de mais do que o tom e o tempo?"
+  },
+  "moreRemoveTitle": {
+    "message": "Remover a música de fundo"
+  },
+  "moreRemoveText": {
+    "message": "Fique só com a voz de uma música ou vídeo."
+  },
+  "moreStemsTitle": {
+    "message": "Separador de faixas"
+  },
+  "moreStemsText": {
+    "message": "Divida uma música em voz, bateria, baixo e outras partes."
+  },
+  "moreMidiTitle": {
+    "message": "Música para MIDI"
+  },
+  "moreMidiText": {
+    "message": "Transforme a melodia e as notas de uma música em um arquivo MIDI."
+  },
+  "moreNote": {
+    "message": "Essas ferramentas ficam no nosso site (em inglês). Algumas usam créditos pagos."
+  },
+  "footerBy": {
+    "message": "Feito por Remove Background Music"
+  },
+  "footerWeb": {
+    "message": "Versão web"
+  },
+  "footerPrivacy": {
+    "message": "Privacidade"
+  },
+  "footerSupport": {
+    "message": "Suporte"
+  },
+  "removeNamed": {
+    "message": "Remover $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyNamed": {
+    "message": "Copiar o resultado de $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyTempoWeak": {
+    "message": "$BPM$ BPM (pulso pouco claro)",
+    "placeholders": {
+      "bpm": {
+        "content": "$1"
+      }
+    }
+  },
+  "skippedFiles": {
+    "message": "Ignorados (não são áudio nem vídeo): $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyAdded": {
+    "message": "Já está na lista: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "csvSeparator": {
+    "message": ";"
+  }
+}

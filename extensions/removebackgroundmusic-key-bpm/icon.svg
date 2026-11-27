@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Remove Background Music">
+  <rect width="512" height="512" rx="120" fill="#1e1e23"/>
+  <rect x="64"  y="196" width="56" height="120" rx="28" fill="#b4b4ae"/>
+  <rect x="146" y="146" width="56" height="220" rx="28" fill="#b4b4ae"/>
+  <rect x="228" y="96"  width="56" height="320" rx="28" fill="#f2a93b"/>
+  <rect x="310" y="166" width="56" height="180" rx="28" fill="#b4b4ae"/>
+  <rect x="392" y="206" width="56" height="100" rx="28" fill="#b4b4ae"/>
+</svg>

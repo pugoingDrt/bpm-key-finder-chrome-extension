@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Marquee promo tile</title>
+<style>
+  html, body { margin: 0; width: 1400px; height: 560px; overflow: hidden; }
+  body {
+    background: #1e1e23;
+    color: #f2f1ec;
+    font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 620px;
+    align-items: center;
+    padding: 0 80px;
+    box-sizing: border-box;
+    gap: 64px;
+  }
+  .logo { width: 72px; height: 72px; border-radius: 18px; box-shadow: 0 0 0 1px #3a3a42; }
+  h1 { margin: 28px 0 14px; font-size: 68px; line-height: 1; font-weight: 800; letter-spacing: -0.025em; }
+  p { margin: 0; font-size: 26px; color: #b4b4ae; font-weight: 600; }
+  p b { color: #f2a93b; }
+  .card { background: #f5f4ef; color: #1e1e23; border-radius: 24px; padding: 28px; display: grid; gap: 14px; box-shadow: 0 30px 60px rgb(0 0 0 / 35%); }
+  .name { font-weight: 700; font-size: 20px; }
+  .meta { font-size: 15px; color: #6a6a64; margin-top: -10px; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .stat { background: #ebe9e1; border-radius: 14px; padding: 14px 16px; display: grid; gap: 2px; }
+  .label { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; color: #6a6a64; }
+  .value { font-size: 28px; font-weight: 800; }
+  .sub { font-size: 13px; color: #6a6a64; }
+</style>
+</head>
+<body>
+  <div>
+    <img class="logo" src="../../icon.svg" alt="" />
+    <h1>BPM &amp; Key Finder</h1>
+    <p>Key <b>·</b> Camelot <b>·</b> Tempo <b>·</b> Tap BPM</p>
+  </div>
+  <!-- The sample song's real result (store/checks/sample-en.png). -->
+  <div class="card">
+    <div class="name">indie-pop-loop.mp3</div>
+    <div class="meta">0:30 · 470 KB</div>
+    <div class="stats">
+      <div class="stat"><span class="label">KEY</span><span class="value">C major</span><span class="sub">Relative minor: A minor</span></div>
+      <div class="stat"><span class="label">CAMELOT</span><span class="value">8B</span><span class="sub">Open Key: 1d</span></div>
+      <div class="stat"><span class="label">TEMPO</span><span class="value">119 BPM</span><span class="sub">Half / double: 59.5 · 238</span></div>
+    </div>
+  </div>
+</body>
+</html>

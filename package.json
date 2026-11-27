@@ -1,0 +1,25 @@
+{
+  "name": "chrome-extensions",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "icons": "node scripts/icons.mjs",
+    "check": "node scripts/check.mjs",
+    "typecheck": "node scripts/typecheck.mjs",
+    "zip": "node scripts/zip.mjs",
+    "preview": "node scripts/preview.mjs",
+    "shoot": "node scripts/shoot.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "locales": "node scripts/locales.mjs"
+  },
+  "dependencies": {
+    "mediabunny": "1.64.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.3.7",
+    "esbuild": "^0.28.2",
+    "sharp": "^0.35.5",
+    "typescript": "^5.9.0"
+  }
+}

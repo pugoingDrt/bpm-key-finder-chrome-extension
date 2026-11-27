@@ -1,0 +1,323 @@
+{
+  "locale_code": {
+    "message": "ko"
+  },
+  "extName": {
+    "message": "BPM 및 키 찾기 – 탭 템포"
+  },
+  "extDescription": {
+    "message": "내 컴퓨터에 있는 노래의 BPM, 키, Camelot 코드를 찾아 줍니다. 탭 템포 포함. 무료이며 파일은 업로드되지 않고 기기에서 처리됩니다."
+  },
+  "actionTitle": {
+    "message": "BPM 및 키 찾기 열기"
+  },
+  "appName": {
+    "message": "BPM 및 키 찾기"
+  },
+  "badgeLocal": {
+    "message": "무료 · 기기에서 처리"
+  },
+  "dropTitle": {
+    "message": "여기에 노래를 놓으세요"
+  },
+  "dropSub": {
+    "message": "또는 클릭해 파일 선택: MP3, WAV, M4A, FLAC, OGG, 동영상"
+  },
+  "dropPrivacy": {
+    "message": "노래는 기기에서 분석되며 업로드되지 않습니다."
+  },
+  "trySample": {
+    "message": "샘플 곡으로 해 보기"
+  },
+  "sampleName": {
+    "message": "인디 팝 루프(샘플)"
+  },
+  "resultsTitle": {
+    "message": "결과"
+  },
+  "copyAll": {
+    "message": "모두 복사"
+  },
+  "downloadCsv": {
+    "message": "CSV 다운로드"
+  },
+  "clearAll": {
+    "message": "지우기"
+  },
+  "statusQueued": {
+    "message": "대기 중…"
+  },
+  "statusReading": {
+    "message": "노래를 읽는 중…"
+  },
+  "statusListening": {
+    "message": "키와 템포를 분석하는 중… $PERCENT$%",
+    "placeholders": {
+      "percent": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorUnreadable": {
+    "message": "이 파일을 읽을 수 없습니다. 소리가 없거나 Chrome에서 디코딩할 수 없습니다. MP3, WAV, M4A 파일로 해 보세요."
+  },
+  "errorTooLong": {
+    "message": "10분 이하의 노래만 분석할 수 있습니다."
+  },
+  "errorFailed": {
+    "message": "분석을 마치지 못했습니다. 다시 시도해 주세요."
+  },
+  "errorSample": {
+    "message": "샘플 곡을 불러오지 못했습니다."
+  },
+  "retry": {
+    "message": "다시 시도"
+  },
+  "labelKey": {
+    "message": "키"
+  },
+  "labelCamelot": {
+    "message": "Camelot"
+  },
+  "labelTempo": {
+    "message": "템포"
+  },
+  "keyMajor": {
+    "message": "$TONIC$ 메이저",
+    "placeholders": {
+      "tonic": {
+        "content": "$1"
+      }
+    }
+  },
+  "keyMinor": {
+    "message": "$TONIC$ 마이너",
+    "placeholders": {
+      "tonic": {
+        "content": "$1"
+      }
+    }
+  },
+  "noteNames": {
+    "message": "C D E F G A B"
+  },
+  "sharpName": {
+    "message": "$NOTE$♯",
+    "placeholders": {
+      "note": {
+        "content": "$1"
+      }
+    }
+  },
+  "flatName": {
+    "message": "$NOTE$♭",
+    "placeholders": {
+      "note": {
+        "content": "$1"
+      }
+    }
+  },
+  "minorLowercase": {
+    "message": "no"
+  },
+  "relativeMajor": {
+    "message": "나란한조(메이저): $KEY$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "relativeMinor": {
+    "message": "나란한조(마이너): $KEY$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "openKey": {
+    "message": "Open Key: $CODE$",
+    "placeholders": {
+      "code": {
+        "content": "$1"
+      }
+    }
+  },
+  "bpmUnit": {
+    "message": "BPM"
+  },
+  "halfDouble": {
+    "message": "절반 / 두 배: $VALUES$",
+    "placeholders": {
+      "values": {
+        "content": "$1"
+      }
+    }
+  },
+  "noKey": {
+    "message": "뚜렷한 키를 찾지 못했습니다"
+  },
+  "noBeat": {
+    "message": "일정한 비트를 찾지 못했습니다"
+  },
+  "weakBeat": {
+    "message": "비트가 뚜렷하지 않습니다. 귀로 확인해 주세요"
+  },
+  "mixesWith": {
+    "message": "잘 어울리는 키"
+  },
+  "copy": {
+    "message": "복사"
+  },
+  "copied": {
+    "message": "복사됨"
+  },
+  "copyFailed": {
+    "message": "클립보드에 복사하지 못했습니다."
+  },
+  "copyLine": {
+    "message": "$NAME$: $KEY$ · $TEMPO$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "key": {
+        "content": "$2"
+      },
+      "tempo": {
+        "content": "$3"
+      }
+    }
+  },
+  "copyKeyText": {
+    "message": "$KEY$ ($CAMELOT$, Open Key $OPEN$)",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      },
+      "camelot": {
+        "content": "$2"
+      },
+      "open": {
+        "content": "$3"
+      }
+    }
+  },
+  "copyNoKey": {
+    "message": "키 불분명"
+  },
+  "copyTempo": {
+    "message": "$BPM$ BPM",
+    "placeholders": {
+      "bpm": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyNoBeat": {
+    "message": "비트 불분명"
+  },
+  "tapTitle": {
+    "message": "탭 템포"
+  },
+  "tapHint": {
+    "message": "박자에 맞춰 버튼을 누르거나 T 키를 누르세요."
+  },
+  "tapButton": {
+    "message": "탭"
+  },
+  "tapNeedMore": {
+    "message": "계속 눌러 주세요…"
+  },
+  "tapCount": {
+    "message": "$COUNT$회 · 2초 넘게 멈추면 처음부터",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "tapReset": {
+    "message": "초기화"
+  },
+  "moreTitle": {
+    "message": "키와 템포 말고도 필요하신가요?"
+  },
+  "moreRemoveTitle": {
+    "message": "배경 음악 제거"
+  },
+  "moreRemoveText": {
+    "message": "노래나 동영상에서 목소리만 남깁니다."
+  },
+  "moreStemsTitle": {
+    "message": "스템 분리"
+  },
+  "moreStemsText": {
+    "message": "노래를 보컬, 드럼, 베이스 등으로 나눕니다."
+  },
+  "moreMidiTitle": {
+    "message": "노래를 MIDI로"
+  },
+  "moreMidiText": {
+    "message": "노래의 멜로디와 음을 MIDI 파일로 바꿉니다."
+  },
+  "moreNote": {
+    "message": "이 도구들은 저희 웹사이트(영어)에 있으며, 일부는 유료 크레딧을 사용합니다."
+  },
+  "footerBy": {
+    "message": "제작: Remove Background Music"
+  },
+  "footerWeb": {
+    "message": "웹 버전"
+  },
+  "footerPrivacy": {
+    "message": "개인정보처리방침"
+  },
+  "footerSupport": {
+    "message": "지원"
+  },
+  "removeNamed": {
+    "message": "$NAME$ 삭제",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyNamed": {
+    "message": "$NAME$ 결과 복사",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyTempoWeak": {
+    "message": "$BPM$ BPM(비트 불분명)",
+    "placeholders": {
+      "bpm": {
+        "content": "$1"
+      }
+    }
+  },
+  "skippedFiles": {
+    "message": "오디오·동영상이 아니어서 건너뜀: $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyAdded": {
+    "message": "이미 목록에 있습니다: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "csvSeparator": {
+    "message": ","
+  }
+}
